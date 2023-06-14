@@ -1,0 +1,24 @@
+.odd {
+    background-color: rgb(236, 137, 142);
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#deux {
+    color: rgb(71, 71, 202);
+    font-size: 36px;
+}
+
+#trois {
+    font-size: 24px;
+}
+
+/* Instead of having another ID for the third element, we should
+take advantage of the fact that #quatre also has 24px for font-size.
+We can isolate this out and separately create a class to represent this feature,
+so to reduce duplicated code.*/
+
+#quatre {
+    background-color: rgb(101, 211, 101);
+    font-size: 24px;
+    font-weight: bold;
+}
